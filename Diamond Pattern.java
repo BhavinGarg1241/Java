@@ -34,4 +34,4 @@ public class Main
 	}
 }
 
-Credits :- Bhvain Garg
+Credits :- Bhavin Garg
