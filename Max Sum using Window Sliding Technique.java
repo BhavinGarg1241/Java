@@ -28,7 +28,7 @@ class window{
         }
         int windowSum = maxSum;
         for(int j=k;j<n;j++){
-            windowSum = windowSum + arr[k] - arr[j-k];
+            windowSum += arr[j] - arr[j-k];
             maxSum=Math.max(maxSum,windowSum);
         }
         return maxSum;
